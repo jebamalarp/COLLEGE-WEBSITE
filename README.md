@@ -20,7 +20,6 @@ FREELANCE JOB INITIAL
 </div>
 <br>
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/jebamalarp/COLLEGE-WEBSITE/)
 
 # About The Project
 
