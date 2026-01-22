@@ -6,9 +6,9 @@ FREELANCE JOB INITIAL
   <a href="https://github.com/jebamalarp/COLLEGE-WEBSITE/">
     <img src="Images/college_logo.png" alt="Logo" height="150">
   </a>
-<h1>GPC GRACE POLYTECHNIC COLLEGE
+<h1>GP COLLEGE 
 </h1>
-<a href="https://www.poly.grace.edu.in/">Visit the Website »</a>
+<a href="(https://github.com/jebamalarp/COLLEGE-WEBSITE/)">Visit the Website »</a>
 <br >
   <br>
 <a href="https://github.com/jebamalarp/COLLEGE-WEBSITE/">View Demo</a>
