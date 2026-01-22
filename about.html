@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GP COLLEGE</title>
+    <link rel="icon" href="Images/lo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="Images/lo.jpg" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="placement.html">PLACEMENT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="help.html">HELP DESK</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!--about us-->
+
+    <section class="about-us">
+      <center>
+        <h1 style="color:rgb(79, 0, 88);">GP COLLEGE</h1><br> 
+    </center>
+      <div class="row">
+        <div class="about-col">
+          <img src="Images/envi.jpg" alt="" />
+        </div>
+        <div class="about-col">
+          <h2>THE BENCHMARK OF EXCELLENCE</h2>
+          <p>
+           At our college, established in 2000,takes pride on being a leader in technical education.
+           We set benchmarks for excellence and innovation. 
+           With a rich legacy of academic success and a commitment to fostering practical skills. 
+           Collaborations with top industries and regular industrial visits give our students a competitive edge,
+           keeping them updated with the latest trends and technologies.
+           Our dedicated faculty members bring a wealth of experience and expertise, 
+           adopting innovative teaching methods that go beyond textbooks.
+           They mentor students to think critically, solve complex problems, and develop the skills necessary for a successful career.
+           We are proud of our consistent track record of academic achievements, high placement rates,
+           and alumni who have gone on to excel in leading industries. From engineering and technology 
+           to applied sciences, we create leaders and innovators of tomorrow.
+           Choosing us means choosing a future full of opportunities, growth, and success.
+          </p>
+        </div>
+      </div>
+
+     
+      <center><h1 style="color:rgb(124, 0, 155);">OUR LEADER'S VOICE</h1></center>
+               <div class="center">
+            <img src="Images/1.jpg" width="1300px" height="750px" class="center">
+            <img src="Images/2.jpg" width="1300px" height="750px" class="center">
+            <img src="Images/3.jpg" width="1300px" height="750px" class="center">
+        </div>   
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+      <h1>About Us</h1>
+      <div class="footer-intro">
+        <p>
+          "Turning passion into profession through technical education and skill development. <br />Our mission is
+      to build  and shaping tomorrow’s engineers and leaders through hands-on experience."
+      </div>
+      <div class="icons">
+        <a
+        href="https://www.facebook.com/"
+          class="fa fa-facebook"
+        ></a>
+        <a href="https://api.whatsapp.com/" class="fa fa-whatsapp"></a>
+        <a
+          href="https://www.instagram.com/"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="www.youtube.com/@lovefallen"
+          class="fa fa-youtube"
+        ></a>
+      </div>
+      <p>Made with <i class=""></i> by MALAR </p>
+      <p>© 2025 MALAR</p>
+    </section>
+
+    <!--Javascript-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

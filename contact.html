@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GP COLLEGE</title>
+    <link rel="icon" href="Images/logo__2_-removebg-preview.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="Images/lo.jpg" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="placement.html">PLACEMENT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="help.html">HELP DESK</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>CONTACT US </h1>
+    </section>
+
+    <!-- contact us -->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.6486647650536!2d78.10709097526205!3d8.724872291324834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b03f20872744bdb%3A0xd15594f9862b9f45!2sGRACE%20Polytechnic%20College!5e0!3m2!1sen!2sin!4v1732779524323!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="speed"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+          <div class="contact-col">
+              <i class="fa fa-home"></i>
+              <span>
+                  <h5 style="font-size: 1.5em; color: purple;">yyyyyyy,</h5>
+                  <p style="font-size: 1.4em; color: purple;">wwwww, xxx,</p>
+                  <p style="font-size: 1.4em; color: purple;">zzzzzzz 625002.</p>
+              </span>
+  
+              <i class="fa fa-phone"></i>
+              <span>
+                  <h5 style="font-size: 1.5em; color: purple;">
+                      <a href="tel:0462234568" style="color: inherit; text-decoration: none;">0462-234568</a>
+                  </h5>
+                  <p style="font-size: 1.4em; color: purple;">call us for queries</p>
+              </span>
+  
+              <i class="fa fa-envelope-o"></i>
+              <span>
+                  <h5 style="font-size: 1.5em; color: purple;">
+                      <a href="mailto:mail@malar.gmail.com" style="color: inherit; text-decoration: none;">office@poly.grace.edu.in</a>
+                  </h5>
+                  <p style="font-size: 1.4em; color: purple;">Email us for queries</p>
+              </span>
+          </div>
+      </div>
+  </section>
+    <!-- footer -->
+
+    <section class="footer">
+      <h1>About Us</h1>
+      <div class="footer-intro">
+        <p>
+          "Turning passion into profession through technical education and skill development. <br />Our mission is
+      to build  and shaping tomorrow’s engineers and leaders through hands-on experience."
+        </p>
+      </div>
+      <div class="icons">
+        <a
+        href="https://www.facebook.com/"
+          class="fa fa-facebook"
+        ></a>
+        <a href="https://api.whatsapp.com/" class="fa fa-whatsapp"></a>
+        <a
+          href="https://www.instagram.com/"
+          class="fa fa-instagram"
+        ></a>
+        <a
+        href="https://youtube.com/@lovefallen"
+        class="fa fa-youtube"
+      ></a>
+      </div>
+      <p>Made with <i class=""></i> by MALAR</p>
+      <p>© 2025 MALAR</p>
+    </section>
+
+    <!--Javascript-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
